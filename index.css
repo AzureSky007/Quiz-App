@@ -1,0 +1,53 @@
+/* *{
+    background-color: darkblue;
+} */
+
+body{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: darkblue;
+}
+
+.Instructions{
+    background-color: aqua;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#MainDiv{
+    background-color: red;
+    /* margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px; */
+}
+
+.NavBar{
+    background-color: aqua;
+    /* overflow: hidden; */
+}
+
+.NavBar a{
+    float: left;
+    padding: 14px 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.NavBar a:hover{
+    background-color: paleturquoise; 
+}
+
+.NavBar a.active{
+    background-color: green;
+    color: black;
+}
+
+#Title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
