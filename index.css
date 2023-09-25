@@ -57,9 +57,14 @@ body{
 
 .difficulty{
     background-color: aqua;
-    align-items: center;
-    text-align: center;
-    padding: 20px 25px ;
+    /* align-items: center;
+    text-align: center; */
+    padding: 20px 25px;
+    width: fit-content;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    /* right: 50%; */
 }
 
 .difficulty a button{
